@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "ng serve",
-    "build": "node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build --configuration production",
+    "build": "ng build --configuration production",
+    "start": "ng serve",
     "preview": "ng serve --configuration=production"
   },
   "dependencies": {
@@ -20,11 +21,11 @@
     "@angular/build": "^21.1.0",
     "@angular/cli": "^21.1.0",
     "@angular/compiler-cli": "^21.1.0",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "@angular/platform-browser-dynamic": "^21.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "typescript": "^5.9.0",
-    "vite": "^6.2.0"
+    "typescript": "^5.9.0"
   }
 }
