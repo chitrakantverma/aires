@@ -1,14 +1,11 @@
-# AI Resume Analyzer
+# Resume analyzer — early setup snapshot
 
-This contains everything you need to run your app locally.
+**Archived reference — reviewed 25 October 2026.**
 
-## Run Locally
+An early resume-analyzer upload containing configuration and entry files. The current tree is missing the imported `src/` application files, so it is not a complete runnable app.
 
-**Prerequisites:**  Node.js
+## Reusing this work
 
+Use this snapshot only to recover configuration or compare earlier setup attempts. Ongoing application work belongs in [Resume Review](https://github.com/chitrakantverma/resume-review).
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The source and original commit history are retained. Unarchive this repository before editing it again, or reuse a specific component in another project with a clear new commit. No development dates were rewritten during this cleanup.
